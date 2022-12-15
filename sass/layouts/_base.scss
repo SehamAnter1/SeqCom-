@@ -1,0 +1,45 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+@import url('https://fonts.google.com/specimen/Public+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Poppins:wght@200;300&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bellefair', serif;
+    font-family: 'Poppins', sans-serif;
+ 
+}
+
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+p {
+    font-size: 15px;
+    color: $Grayish_Blue;
+}
+
+
+a{
+    text-decoration: none;
+}
+h2{
+    color: $mainColor;
+ }
+h3{
+    color:  #61bdbd;
+    font-size: 15px;
+    letter-spacing: 0.1rem;
+    margin-left: 17px;
+ }
